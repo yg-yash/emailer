@@ -1,0 +1,22 @@
+{
+  "name": "emailer",
+  "version": "0.0.1",
+  "description": "Automate Emails To Users",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev-server": "nodemon index.js"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Yash Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
